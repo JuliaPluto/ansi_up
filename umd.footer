@@ -1,4 +1,6 @@
 
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.default = AnsiUp;
-}));
+//    Object.defineProperty(exports, "__esModule", { value: true });
+//    exports.default = AnsiUp;
+//}));
+
+export default AnsiUp;

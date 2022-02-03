@@ -4,7 +4,7 @@ TESTS = test/*.js
 REPORTER = dot
 
 typescript:
-		./node_modules/.bin/tsc -p .
+		./node_modules/.bin/tsc -p . --target es6
 		cat ./umd.header ./dist/ansi_up.js ./umd.footer > ansi_up.js
 		mv  ./dist/ansi_up.js ./dist/ansi_up.js.include
 		node ./scripts/fix-typings.js
